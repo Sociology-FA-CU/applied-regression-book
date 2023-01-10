@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Linear Regression Survival Kit"
+  description: |
+    Applied Linear Regression in R
+  author:
+    - name: "Aleš Vomáčka"
+    - name: "Jaromír Mazák"
+  date: "last-modified"
+  date-format: "D. M. YYYY"
+  downloads: [pdf, epub]
+  chapters:
+    - index.qmd
+    - data.qmd
+    - packages.qmd
+    - part: "Anatomy of Linear Regression"
+      chapters: 
+        - regression-purpose.qmd
+    - references.qmd
+license: "CC BY-NC"
+citation: true
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+  pdf:
+    documentclass: scrreprt
+  epub:
+    epub-cover-image: cover.png
+
+editor: visual
+

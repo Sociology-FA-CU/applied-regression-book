@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Linear Regression Survival Kit",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book."
+  },
+  {
+    "objectID": "packages.html",
+    "href": "packages.html",
+    "title": "Packages",
+    "section": "",
+    "text": "It this book, we will use several packages to help us work with and understand regression. You can install them all by using the following command:\n\ninstall.packages(c(\"tidyverse\",\n                   \"broom\",\n                   \"marginaleffects\",\n                   \"lspline\",\n                   \"performance\",\n                   \"bayestestR\"))\n\nFrom {tidyverse}, we will mainly borrow function data preprocessing and visualization. {broom} will help us extract information about our models in tidy format. {marginaleffects} will be instrumental for interpreting more complex models. When it comes to modeling nonlinear relationships, the {lspline} package will prove very useful. The {performance} package includes some useful functions for assumptions checking for beginners. Lastly, we will use bayestestR for an uncommon, but useful, take on hypothesis testing."
+  }
+]
